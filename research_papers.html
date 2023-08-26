@@ -9,8 +9,8 @@ layout: default
     We show that estimating factors introduces a bias in the estimated correlation between factors,
     which disappears if the factors are estimated from panel data sets containing many cross-sectional series. 
     We show that a modified version of the wild bootstrap algorithm proposed by Gonçalves and Perron (2014) 
-    can correct the bias and provide reliable inference on the correlation of interest. Additionally, we apply our modified wild 
-    bootstrap method to analyze the influence of institutional factors on economic growth, as examined in Deniz et al. (2018), and the degree of
+    can correct the bias and provide reliable inferences on the correlation of interest. Additionally, we apply our modified wild 
+    bootstrap method to analyze the influence of institutional factors on economic growth, as examined by Deniz et al. (2018), and the degree of
     synchronization of business cycles in developed and emerging economies, as explored in Kose et al. (2013) and 
     Aastveit et al. (2015).</p> 
         <p style="text-indent:10px;font-size:11px">• <b>Presentations</b>: 17th International Conference on Computational and Financial Econometrics (Berlin, 2023)*, Annual Meetings of the Canadian Economics Association (CEA, 2022), Conference in Honor of Eric Renault 2022,  SCSE Conference 2021, CIREQ Ph.D. Students’Conference 2021, Quebec Social Sciences PhD Students Seminar 2021 </p> 
@@ -49,22 +49,19 @@ Forest, Gradient Boosting, Artificial Neural Network), ensembles of linear and n
 
   <ol>
     <li> <b>High-Frequency Inflation Expectations from Big Data: A Natural Language Approach</b> </li> 
-       <p align="justify"> In this study, we leverage advanced computational techniques, including textual analysis and machine learning, 
-        on a comprehensive dataset of more than 2 million newspaper articles and 40 million tweets across Canadian provinces to build novel high-frequency and real-time indicators
-        of consumer inflation expectations at both the national and subnational levels. 
-        To achieve this, we first identify news articles and tweets related to inflation or prices, then construct daily measures
-        of text-based inflation expectations which is the difference between the number of news articles or tweets about inflation and the number
-        of tweets about deflation through a combination of state-of-the-art techniques like Latent Dirichlet Allocation (LDA),
-        transformer text classification, and a dictionary-based approach. Our findings indicate a high correlation between the resulting 
-        text-based inflation expectations indices and consumers’ survey-based inflation expectations and official inflation data. Subsequently, 
-        we use a mixed-frequency machine learning approach to generate nowcasts/forecasts of quarterly inflation expectations based on large sets
-        of text indicators and Google Trends search volume data for inflation-related terms. The predictions are based on linear models estimated 
-        via the LASSO, Ridge, and Elastic net, nonlinear models based on Random Forests, Extreme Gradient Boosting, and Artificial Neural Networks, 
-        and ensembles of linear and nonlinear models. The results demonstrate that news and social media data contain valuable information
-        regarding inflation dynamics, and our newly developed indicators effectively anticipate consumer expectations. 
-        Moreover, we show that random forests and neural networks are very competitive models, and their superiority, 
-        although stable across most of the time period considered. 
-        The findings suggest that newspaper and social media data can serve as a timely source for eliciting beliefs on inflation.
+       <p align="justify"> In this study, we leverage advanced computational techniques, including textual analysis and machine learning, on a comprehensive dataset of more
+         than 2 million newspaper articles and 40 million tweets across Canadian provinces to build novel high-frequency and real-time indicators of consumer inflation expectations
+         at both the national and subnational levels. To achieve this, we first identify news articles and tweets related to inflation or prices. 
+         Additionally, we apply deep learning methods to extract information specifically related to the future sentence price dynamics, 
+         then construct daily measures of text-based inflation expectations which is the difference between the number of news articles or tweets about inflation and the number of 
+         tweets about deflation through a combination of state-of-the-art artificial intelligence techniques. Our findings indicate a high correlation between the resulting text-based 
+         inflation expectations indices with consumers’ survey-based inflation expectations and official inflation data. Subsequently, we use a mixed-frequency machine learning approach 
+         to generate nowcasts/forecasts of quarterly inflation expectations based on large sets of text indicators and Google Trends search volume data for inflation-related terms. 
+         The predictions are based on linear models estimated via the LASSO, Ridge, and Elastic net, nonlinear models based on Random Forests, Extreme Gradient Boosting, and Artificial Neural Networks, 
+         and ensembles of linear and nonlinear models. The results demonstrate that news and social media data contain valuable information regarding inflation dynamics, and our newly developed indicators effectively
+         anticipate consumer expectations. Moreover, we show that random forests and neural networks are very competitive models and their superiority, although stable across most of the time period considered. 
+         The paper also contributes to the interpretability of nonlinear models by making comparisons between the SHAP values and an alternative method based on partial derivatives. The findings suggest that newspaper 
+         and social media data can serve as a timely source for market participants and policymakers to elicit beliefs on inflation. 
  </p>
      <p style="text-indent:10px;font-size:11px">• <b>Presentations</b>: 2023 NBER-NSF Time Series Conference, poster session*, UdeM Department of Mathematics and Statistics Brownbag Seminar (2023), 
        1st CIREQ Interdisciplinary Conference on Big Data and Artificial Intelligence (2023), 18th CIREQ PhD Students Conference (2023), SCSE Conference (2023), Quebec Social Sciences PhD Students Seminar (2023) </p> 
@@ -100,7 +97,7 @@ Forest, Gradient Boosting, Artificial Neural Network), ensembles of linear and n
  In this paper, we investigate whether information from Canadian local newspaper articles about housing market narratives could improve
  local housing price predictions. We build separate future and past topic indexes to capture prior and posterior media narratives about the housing market. 
 We use the mixed-frequency machine learning approach to generate a sequence of nowcasts/forecasts of monthly
- housing prices based on a vast local newspapers corpus related to the housing market. 
+ housing prices based on a vast local newspaper corpus related to the housing market. 
  The predictions are based on linear models estimated via the LASSO and elastic net, nonlinear models based on artificial neural networks, 
   ensembles of linear and nonlinear models. 
  The results indicate that news data contain valuable information about the housing market's direction.
@@ -145,7 +142,25 @@ We use the mixed-frequency machine learning approach to generate a sequence of n
   </ol>
 
 
- <!-- <br> -->  
+ <!-- 
+
+In this study, we leverage advanced computational techniques, including textual analysis and machine learning, 
+        on a comprehensive dataset of more than 2 million newspaper articles and 40 million tweets across Canadian provinces to build novel high-frequency and real-time indicators
+        of consumer inflation expectations at both the national and subnational levels. 
+        To achieve this, we first identify news articles and tweets related to inflation or prices, then construct daily measures
+        of text-based inflation expectations which is the difference between the number of news articles or tweets about inflation and the number
+        of tweets about deflation through a combination of state-of-the-art techniques like Latent Dirichlet Allocation (LDA),
+        transformer text classification, and a dictionary-based approach. Our findings indicate a high correlation between the resulting 
+        text-based inflation expectations indices with consumers’ survey-based inflation expectations and official inflation data. Subsequently, 
+        we use a mixed-frequency machine learning approach to generate nowcasts/forecasts of quarterly inflation expectations based on large sets
+        of text indicators and Google Trends search volume data for inflation-related terms. The predictions are based on linear models estimated 
+        via the LASSO, Ridge, and Elastic net, nonlinear models based on Random Forests, Extreme Gradient Boosting, and Artificial Neural Networks, 
+        and ensembles of linear and nonlinear models. The results demonstrate that news and social media data contain valuable information
+        regarding inflation dynamics, and our newly developed indicators effectively anticipate consumer expectations. 
+        Moreover, we show that random forests and neural networks are very competitive models and their superiority, 
+        although stable across most of the time period considered. 
+        The findings suggest that newspaper and social media data can serve as a timely source for eliciting beliefs on inflation.
+-->  
 <h3 style="color:rgb(16, 141, 193);">Policy Papers</h3>
 
   <ol>
